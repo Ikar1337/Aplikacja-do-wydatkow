@@ -1,0 +1,253 @@
+﻿<Window x:Class="ProjektPWSW.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="14"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Menedżer Finansów" Height="700" Width="1100">
+
+	<Grid Margin="10">
+		<TabControl Style="{StaticResource MaterialDesignFilledTabControl}">
+
+			<TabItem Header="Kategorie">
+				<Grid Margin="15">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="2*"/>
+						<ColumnDefinition Width="*"/>
+					</Grid.ColumnDefinitions>
+
+					<DataGrid Grid.Column="0" ItemsSource="{Binding Categories.Items}" SelectedItem="{Binding Categories.Selected}" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" Margin="0,0,15,0">
+						<DataGrid.Columns>
+							<DataGridTextColumn Header="Nazwa" Binding="{Binding Name}" Width="*"/>
+							<DataGridTextColumn Header="Typ" Binding="{Binding Type}" Width="160"/>
+						</DataGrid.Columns>
+					</DataGrid>
+
+					<StackPanel Grid.Column="1" Margin="10">
+						<Button Content="Odśwież" Style="{StaticResource MaterialDesignOutlinedButton}" Command="{Binding Categories.RefreshCmd}" Margin="0,0,0,20"/>
+
+						<TextBox materialDesign:HintAssist.Hint="Nazwa" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Categories.Name, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,15"/>
+						<TextBox materialDesign:HintAssist.Hint="Typ" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Categories.Type, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,25"/>
+
+						<Button Content="Dodaj" Command="{Binding Categories.AddCmd}" Margin="0,0,0,10"/>
+						<Button Content="Aktualizuj" Command="{Binding Categories.UpdateCmd}" Margin="0,0,0,10"/>
+						<Button Content="Usuń" Style="{StaticResource MaterialDesignPaperButton}" Background="#ffebee" Foreground="#d32f2f" Command="{Binding Categories.DeleteCmd}"/>
+					</StackPanel>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="Wydatki">
+				<Grid Margin="15">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition Height="*"/>
+					</Grid.RowDefinitions>
+
+					<Grid Grid.Row="0" Margin="0,0,0,15">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="1.5*"/>
+							<ColumnDefinition Width="2*"/>
+						</Grid.ColumnDefinitions>
+
+						<GroupBox Header="Dodaj wydatek" Style="{DynamicResource MaterialDesignCardGroupBox}" Grid.Column="0" Margin="0,0,15,0">
+							<StackPanel Margin="10">
+								<DatePicker materialDesign:HintAssist.Hint="Data" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" SelectedDate="{Binding Expenses.Date}" Margin="0,0,0,10"/>
+								<TextBox materialDesign:HintAssist.Hint="Kwota" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Expenses.Amount}" Margin="0,0,0,10"/>
+								<TextBox materialDesign:HintAssist.Hint="Opis" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Expenses.Description}" Margin="0,0,0,10"/>
+								<ComboBox materialDesign:HintAssist.Hint="Kategoria" Style="{StaticResource MaterialDesignFloatingHintComboBox}" ItemsSource="{Binding Expenses.Categories}" SelectedItem="{Binding Expenses.SelectedCategory}" DisplayMemberPath="Name" Margin="0,0,0,20"/>
+
+								<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+									<Button Content="Wgraj z PDF/JPG" Style="{StaticResource MaterialDesignOutlinedButton}" Command="{Binding Expenses.UploadReceiptCmd}" Margin="0,0,10,0"/>
+
+									<Button Content="Odśwież" Style="{StaticResource MaterialDesignOutlinedButton}" Command="{Binding Expenses.RefreshCmd}" Width="110" Margin="0,0,10,0"/>
+									<Button Content="Dodaj" Command="{Binding Expenses.AddCmd}" Width="110"/>
+								</StackPanel>
+							</StackPanel>
+						</GroupBox>
+
+						<GroupBox Header="Filtry / Sortowanie" Style="{DynamicResource MaterialDesignCardGroupBox}" Grid.Column="1">
+							<StackPanel Margin="10">
+								<WrapPanel Margin="0,0,0,15">
+									<DatePicker materialDesign:HintAssist.Hint="Data Od:" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" SelectedDate="{Binding Expenses.From}" Width="140" Margin="0,0,15,0"/>
+									<DatePicker materialDesign:HintAssist.Hint="Data Do:" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" SelectedDate="{Binding Expenses.To}" Width="140"/>
+								</WrapPanel>
+
+								<WrapPanel Margin="0,0,0,15">
+									<TextBox materialDesign:HintAssist.Hint="Kwota Min:" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Expenses.MinAmount}" Width="140" Margin="0,0,15,0"/>
+									<TextBox materialDesign:HintAssist.Hint="Kwota Max:" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Expenses.MaxAmount}" Width="140"/>
+								</WrapPanel>
+
+								<WrapPanel Margin="0,0,0,20">
+									<ComboBox materialDesign:HintAssist.Hint="Kategoria" Style="{StaticResource MaterialDesignFloatingHintComboBox}" ItemsSource="{Binding Expenses.Categories}" SelectedItem="{Binding Expenses.FilterCategory}" DisplayMemberPath="Name" Width="200" Margin="0,0,15,0"/>
+									<ComboBox materialDesign:HintAssist.Hint="Sortowanie" Style="{StaticResource MaterialDesignFloatingHintComboBox}" SelectedValue="{Binding Expenses.Sort}" SelectedValuePath="Tag" Width="180">
+										<ComboBoxItem Content="Data ↓" Tag="date_desc"/>
+										<ComboBoxItem Content="Data ↑" Tag="date_asc"/>
+										<ComboBoxItem Content="Kwota ↓" Tag="amount_desc"/>
+										<ComboBoxItem Content="Kwota ↑" Tag="amount_asc"/>
+									</ComboBox>
+								</WrapPanel>
+
+								<WrapPanel HorizontalAlignment="Right">
+									<Button Content="Wczytaj kategorie" Style="{StaticResource MaterialDesignOutlinedButton}" Command="{Binding Expenses.LoadCategoriesCmd}" Margin="0,0,10,0"/>
+									<Button Content="Zastosuj filtry" Command="{Binding Expenses.ApplyFiltersCmd}"/>
+								</WrapPanel>
+							</StackPanel>
+						</GroupBox>
+					</Grid>
+
+					<Grid Grid.Row="1">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="*"/>
+							<ColumnDefinition Width="Auto"/>
+						</Grid.ColumnDefinitions>
+
+						<DataGrid Grid.Column="0" ItemsSource="{Binding Expenses.Items}" SelectedItem="{Binding Expenses.Selected}" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" Margin="0,0,15,0">
+							<DataGrid.Columns>
+								<DataGridTextColumn Header="Data" Binding="{Binding Date, StringFormat=yyyy-MM-dd}" Width="140"/>
+								<DataGridTextColumn Header="Kwota" Binding="{Binding Amount}" Width="110"/>
+								<DataGridTextColumn Header="Opis" Binding="{Binding Description}" Width="*"/>
+								<DataGridTextColumn Header="Kategoria" Binding="{Binding CategoryName}" Width="200"/>
+							</DataGrid.Columns>
+						</DataGrid>
+
+						<StackPanel Grid.Column="1">
+							<Button Content="Usuń zaznaczony" Style="{StaticResource MaterialDesignPaperButton}" Background="#ffebee" Foreground="#d32f2f" Command="{Binding Expenses.DeleteCmd}" Width="160"/>
+						</StackPanel>
+					</Grid>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="Podsumowanie">
+				<Grid Margin="15">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition Height="*"/>
+					</Grid.RowDefinitions>
+
+					<GroupBox Header="Parametry podsumowania" Style="{DynamicResource MaterialDesignCardGroupBox}" Margin="0,0,0,15">
+						<WrapPanel Margin="10" VerticalAlignment="Center">
+							<ComboBox materialDesign:HintAssist.Hint="Tryb" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Width="150" SelectedValue="{Binding Summary.Mode}" SelectedValuePath="Tag" Margin="0,0,20,10">
+								<ComboBoxItem Content="Miesiąc" Tag="monthly"/>
+								<ComboBoxItem Content="Rok" Tag="yearly"/>
+								<ComboBoxItem Content="Zakres dat" Tag="range"/>
+							</ComboBox>
+
+							<TextBox materialDesign:HintAssist.Hint="Rok" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Summary.Year, UpdateSourceTrigger=PropertyChanged}" Width="80" Margin="0,0,20,10"/>
+							<TextBox materialDesign:HintAssist.Hint="Miesiąc" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Summary.Month, UpdateSourceTrigger=PropertyChanged}" Width="60" Margin="0,0,20,10"/>
+
+							<DatePicker materialDesign:HintAssist.Hint="Od" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" SelectedDate="{Binding Summary.From}" Width="140" Margin="0,0,20,10"/>
+							<DatePicker materialDesign:HintAssist.Hint="Do" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" SelectedDate="{Binding Summary.To}" Width="140" Margin="0,0,20,10"/>
+
+							<Button Content="Pobierz wyniki" Command="{Binding Summary.LoadCmd}" Margin="0,10,0,0"/>
+						</WrapPanel>
+					</GroupBox>
+
+					<Grid Grid.Row="1">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="*"/>
+						</Grid.RowDefinitions>
+
+						<StackPanel Orientation="Horizontal" Margin="5,0,0,15">
+							<TextBlock Text="Suma wydatków:" FontSize="18" FontWeight="Medium" Margin="0,0,10,0"/>
+							<TextBlock Text="{Binding Summary.Total}" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueMidBrush}" Margin="0,0,30,0"/>
+
+							<TextBlock Text="Liczba transakcji:" FontSize="18" FontWeight="Medium" Margin="0,0,10,0"/>
+							<TextBlock Text="{Binding Summary.Count}" FontSize="18" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueMidBrush}"/>
+						</StackPanel>
+
+						<DataGrid Grid.Row="1" ItemsSource="{Binding Summary.Categories}" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True">
+							<DataGrid.Columns>
+								<DataGridTextColumn Header="Kategoria" Binding="{Binding CategoryName}" Width="*"/>
+								<DataGridTextColumn Header="Kwota" Binding="{Binding Amount}" Width="140"/>
+								<DataGridTextColumn Header="Udział %" Binding="{Binding Percentage}" Width="120"/>
+							</DataGrid.Columns>
+						</DataGrid>
+					</Grid>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="Cele">
+				<Grid Margin="15">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="2*"/>
+						<ColumnDefinition Width="*"/>
+					</Grid.ColumnDefinitions>
+
+					<DataGrid Grid.Column="0" ItemsSource="{Binding Goals.Items}" SelectedItem="{Binding Goals.Selected}" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" Margin="0,0,15,0">
+						<DataGrid.Columns>
+							<DataGridTextColumn Header="Nazwa" Binding="{Binding Name}" Width="*"/>
+							<DataGridTextColumn Header="Kwota docelowa" Binding="{Binding TargetAmount}" Width="140"/>
+							<DataGridTextColumn Header="Data docelowa" Binding="{Binding TargetDate, StringFormat=yyyy-MM-dd}" Width="120"/>
+							<DataGridTextColumn Header="Aktualna" Binding="{Binding CurrentAmount}" Width="110"/>
+							<DataGridTextColumn Header="Postęp %" Binding="{Binding ProgressPercent}" Width="90"/>
+							<DataGridTextColumn Header="Brakuje" Binding="{Binding RemainingAmount}" Width="110"/>
+						</DataGrid.Columns>
+					</DataGrid>
+
+					<StackPanel Grid.Column="1" Margin="10">
+						<Button Content="Odśwież" Style="{StaticResource MaterialDesignOutlinedButton}" Command="{Binding Goals.RefreshCmd}" Margin="0,0,0,20"/>
+
+						<TextBox materialDesign:HintAssist.Hint="Nazwa Celu" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Goals.Name}" Margin="0,0,0,15"/>
+						<TextBox materialDesign:HintAssist.Hint="Kwota docelowa" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Goals.TargetAmount}" Margin="0,0,0,15"/>
+						<DatePicker materialDesign:HintAssist.Hint="Data docelowa" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" SelectedDate="{Binding Goals.TargetDate, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,15"/>
+						<TextBox materialDesign:HintAssist.Hint="Aktualnie zaoszczędzono" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Goals.CurrentAmount}" Margin="0,0,0,25"/>
+
+						<Button Content="Dodaj nowy cel" Command="{Binding Goals.AddCmd}" Margin="0,0,0,10"/>
+						<Button Content="Aktualizuj cel" Command="{Binding Goals.UpdateCmd}" Margin="0,0,0,10"/>
+						<Button Content="Usuń cel" Style="{StaticResource MaterialDesignPaperButton}" Background="#ffebee" Foreground="#d32f2f" Command="{Binding Goals.DeleteCmd}" Margin="0,0,0,25"/>
+
+						<GroupBox Header="Szybka wpłata" Style="{DynamicResource MaterialDesignCardGroupBox}">
+							<StackPanel Margin="10">
+								<TextBox materialDesign:HintAssist.Hint="Kwota do dodania" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Goals.AddAmountValue}" Margin="0,0,0,15"/>
+								<Button Content="Zasil skarbonkę" Command="{Binding Goals.AddAmountCmd}"/>
+							</StackPanel>
+						</GroupBox>
+					</StackPanel>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="Raport">
+				<Grid Margin="15">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition Height="*"/>
+						<RowDefinition Height="Auto"/>
+					</Grid.RowDefinitions>
+
+					<GroupBox Grid.Row="0" Header="Ustawienia raportu" Style="{DynamicResource MaterialDesignCardGroupBox}" Margin="0,0,0,15">
+						<WrapPanel Margin="10" VerticalAlignment="Center">
+							<ComboBox materialDesign:HintAssist.Hint="Typ Raportu" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Width="200" SelectedValue="{Binding Reports.Mode}" SelectedValuePath="Tag" Margin="0,0,20,10">
+								<ComboBoxItem Content="Miesięczny" Tag="monthly"/>
+								<ComboBoxItem Content="Roczny" Tag="yearly"/>
+								<ComboBoxItem Content="Okresowy (zakres)" Tag="range"/>
+							</ComboBox>
+
+							<TextBox materialDesign:HintAssist.Hint="Rok" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Reports.Year}" Width="80" Margin="0,0,20,10"/>
+							<TextBox materialDesign:HintAssist.Hint="Miesiąc" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Reports.Month}" Width="60" Margin="0,0,20,10" IsEnabled="{Binding Reports.IsMonthly}"/>
+							<DatePicker materialDesign:HintAssist.Hint="Od" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" SelectedDate="{Binding Reports.From}" Width="140" Margin="0,0,20,10" IsEnabled="{Binding Reports.IsRange}"/>
+							<DatePicker materialDesign:HintAssist.Hint="Do" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" SelectedDate="{Binding Reports.To}" Width="140" Margin="0,0,20,10" IsEnabled="{Binding Reports.IsRange}"/>
+
+							<Button Content="Wygeneruj raport (TXT)" Command="{Binding Reports.GenerateCmd}" Width="220" Margin="0,10,0,0"/>
+						</WrapPanel>
+					</GroupBox>
+
+					<GroupBox Grid.Row="1" Header="Podgląd wygenerowanego raportu" Style="{DynamicResource MaterialDesignCardGroupBox}">
+						<TextBox Text="{Binding Reports.ReportContent}" Margin="10" IsReadOnly="True" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" TextWrapping="NoWrap" FontFamily="Consolas" FontSize="13"/>
+					</GroupBox>
+
+					<StackPanel Grid.Row="2" Margin="0,15,0,0">
+						<TextBox materialDesign:HintAssist.Hint="Plik zapisano na pulpicie pod ścieżką:" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding Reports.LastPath}" IsReadOnly="True"/>
+					</StackPanel>
+
+				</Grid>
+			</TabItem>
+
+		</TabControl>
+	</Grid>
+</Window>

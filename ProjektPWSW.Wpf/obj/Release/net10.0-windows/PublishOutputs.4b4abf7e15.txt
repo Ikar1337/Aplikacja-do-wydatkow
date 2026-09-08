@@ -1,0 +1,8 @@
+C:\Users\Ikar\Desktop\ProjektPWSW — kopia\GotowaAplikacja\ProjektPWSW.Wpf.exe
+C:\Users\Ikar\Desktop\ProjektPWSW — kopia\GotowaAplikacja\ProjektPWSW.Wpf.dll
+C:\Users\Ikar\Desktop\ProjektPWSW — kopia\GotowaAplikacja\ProjektPWSW.Wpf.deps.json
+C:\Users\Ikar\Desktop\ProjektPWSW — kopia\GotowaAplikacja\ProjektPWSW.Wpf.runtimeconfig.json
+C:\Users\Ikar\Desktop\ProjektPWSW — kopia\GotowaAplikacja\ProjektPWSW.Wpf.pdb
+C:\Users\Ikar\Desktop\ProjektPWSW — kopia\GotowaAplikacja\MaterialDesignColors.dll
+C:\Users\Ikar\Desktop\ProjektPWSW — kopia\GotowaAplikacja\MaterialDesignThemes.Wpf.dll
+C:\Users\Ikar\Desktop\ProjektPWSW — kopia\GotowaAplikacja\Microsoft.Xaml.Behaviors.dll

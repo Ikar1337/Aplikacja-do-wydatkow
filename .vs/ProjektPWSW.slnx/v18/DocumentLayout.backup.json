@@ -1,0 +1,474 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\services\\receiptocrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\services\\receiptocrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.wpf\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|solutionrelative:projektpwsw.wpf\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.wpf\\viewmodels\\expensesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|solutionrelative:projektpwsw.wpf\\viewmodels\\expensesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.wpf\\receiptverificationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|solutionrelative:projektpwsw.wpf\\receiptverificationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.wpf\\receiptverificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|solutionrelative:projektpwsw.wpf\\receiptverificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\obj\\ProjektPWSW.Api.csproj.nuget.g.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Api\\obj\\ProjektPWSW.Api.csproj.nuget.g.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\obj\\project.assets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Wpf\\obj\\project.assets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.wpf\\viewmodels\\categoriesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|solutionrelative:projektpwsw.wpf\\viewmodels\\categoriesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\models\\savinggoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\models\\savinggoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\migrations\\20260201180822_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\migrations\\20260201180822_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\dtos\\createsavinggoaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\dtos\\createsavinggoaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\controllers\\summarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\controllers\\summarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\controllers\\savinggoalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\controllers\\savinggoalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.api\\projektpwsw.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{782D92B2-F381-AA2A-D6F9-4C0E8136D2AF}|ProjektPWSW.Api\\ProjektPWSW.Api.csproj|solutionrelative:projektpwsw.api\\projektpwsw.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|solutionrelative:projektpwsw.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.wpf\\mainwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|solutionrelative:projektpwsw.wpf\\mainwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.wpf\\app.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|solutionrelative:projektpwsw.wpf\\app.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|c:\\users\\ikar\\desktop\\projektpwsw \u2014 kopia\\projektpwsw.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8FE75E-2598-8DE6-8887-0624DE5DE331}|ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj|solutionrelative:projektpwsw.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\appsettings.json",
+              "RelativeToolTip": "ProjektPWSW.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-03T05:07:04.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\appsettings.Development.json",
+              "RelativeToolTip": "ProjektPWSW.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-09T12:42:23.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReceiptOcrService.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Services\\ReceiptOcrService.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Services\\ReceiptOcrService.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Services\\ReceiptOcrService.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Services\\ReceiptOcrService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAuwJMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T18:14:44.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReceiptVerificationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ReceiptVerificationWindow.xaml",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\ReceiptVerificationWindow.xaml",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ReceiptVerificationWindow.xaml",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\ReceiptVerificationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-02T18:02:28.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:48:29.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\Services\\ApiClient.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\Services\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\Services\\ApiClient.cs",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\Services\\ApiClient.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAA1wFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T04:44:14.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReceiptVerificationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ReceiptVerificationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\ReceiptVerificationWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ReceiptVerificationWindow.xaml.cs",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\ReceiptVerificationWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T18:03:26.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExpensesVm.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ViewModels\\ExpensesVm.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\ViewModels\\ExpensesVm.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ViewModels\\ExpensesVm.cs",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\ViewModels\\ExpensesVm.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAcwAEBAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T18:04:39.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\data\\AppDbContext.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:59:57.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoriesVm.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ViewModels\\CategoriesVm.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\ViewModels\\CategoriesVm.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ViewModels\\CategoriesVm.cs",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\ViewModels\\CategoriesVm.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAgwG0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T13:04:22.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Services\\CategoryService.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Services\\CategoryService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T13:04:08.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SavingGoal.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\models\\SavingGoal.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\models\\SavingGoal.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\models\\SavingGoal.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\models\\SavingGoal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T13:03:54.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260201180822_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Migrations\\20260201180822_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Migrations\\20260201180822_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Migrations\\20260201180822_InitialCreate.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Migrations\\20260201180822_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T13:02:00.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateSavingGoalDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Dtos\\CreateSavingGoalDto.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Dtos\\CreateSavingGoalDto.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Dtos\\CreateSavingGoalDto.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Dtos\\CreateSavingGoalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T13:00:49.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SummaryController.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\SummaryController.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Controllers\\SummaryController.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\SummaryController.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Controllers\\SummaryController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:59:42.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SavingGoalsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\SavingGoalsController.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Controllers\\SavingGoalsController.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\SavingGoalsController.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Controllers\\SavingGoalsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:59:13.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:59:02.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Controllers\\ExpenseController.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Controllers\\ExpenseController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:58:33.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjektPWSW.Api.csproj.nuget.g.targets",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\obj\\ProjektPWSW.Api.csproj.nuget.g.targets",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\obj\\ProjektPWSW.Api.csproj.nuget.g.targets",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\obj\\ProjektPWSW.Api.csproj.nuget.g.targets",
+              "RelativeToolTip": "ProjektPWSW.Api\\obj\\ProjektPWSW.Api.csproj.nuget.g.targets",
+              "ViewState": "AgIAAAYAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-03T05:37:46.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Program.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T05:08:29.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ProjektPWSW.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-03T05:04:30.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProjektPWSW.Api.http",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\ProjektPWSW.Api.http",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\ProjektPWSW.Api.http",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\ProjektPWSW.Api.http",
+              "RelativeToolTip": "ProjektPWSW.Api\\ProjektPWSW.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-03T05:04:13.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T04:52:48.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\MainWindow.xaml",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-03T04:52:41.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "project.assets.json",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\obj\\project.assets.json",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\obj\\project.assets.json",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\obj\\project.assets.json",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\obj\\project.assets.json",
+              "ViewState": "AgIAAEgAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-03T05:06:17.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\App.xaml",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\App.xaml",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\App.xaml",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-03T04:52:01.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\App.xaml.cs",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T04:36:56.623Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1165,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

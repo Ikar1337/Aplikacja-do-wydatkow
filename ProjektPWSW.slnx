@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ProjektPWSW.Api/ProjektPWSW.Api.csproj" />
+  <Project Path="ProjektPWSW.Wpf/ProjektPWSW.Wpf.csproj" />
+</Solution>

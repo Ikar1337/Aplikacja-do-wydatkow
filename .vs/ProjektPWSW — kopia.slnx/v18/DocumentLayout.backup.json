@@ -1,0 +1,283 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\ReceiptController.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Api\\Controllers\\ReceiptController.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Services\\ReceiptOcrService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Api\\Services\\ReceiptOcrService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\MainWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Wpf\\MainWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ViewModels\\ExpensesVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Wpf\\ViewModels\\ExpensesVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\Dtos\\ParsedExpenseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Wpf\\Dtos\\ParsedExpenseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\Services\\ApiClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Wpf\\Services\\ApiClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\ExpenseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Api\\Controllers\\ExpenseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Dtos\\ParsedExpenseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Api\\Dtos\\ParsedExpenseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Dtos\\ReportDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Api\\Dtos\\ReportDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Wpf\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Wpf\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Wpf\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\ProjektPWSW.Api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjektPWSW.Api\\ProjektPWSW.Api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpensesVm.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ViewModels\\ExpensesVm.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\ViewModels\\ExpensesVm.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ViewModels\\ExpensesVm.cs",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\ViewModels\\ExpensesVm.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAwwAMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T17:30:20.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParsedExpenseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\Dtos\\ParsedExpenseDto.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\Dtos\\ParsedExpenseDto.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\Dtos\\ParsedExpenseDto.cs",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\Dtos\\ParsedExpenseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T17:22:26.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Controllers\\ExpenseController.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Controllers\\ExpenseController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:29:34.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReceiptOcrService.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Services\\ReceiptOcrService.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Services\\ReceiptOcrService.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Services\\ReceiptOcrService.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Services\\ReceiptOcrService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:27:47.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\MainWindow.xaml",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\MainWindow.xaml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-27T18:09:27.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReceiptController.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\ReceiptController.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Controllers\\ReceiptController.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Controllers\\ReceiptController.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Controllers\\ReceiptController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:29:15.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ParsedExpenseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Dtos\\ParsedExpenseDto.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Dtos\\ParsedExpenseDto.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Dtos\\ParsedExpenseDto.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Dtos\\ParsedExpenseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:25:08.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\Services\\ApiClient.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\Services\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\Services\\ApiClient.cs",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\Services\\ApiClient.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwEsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T17:39:27.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReportDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Dtos\\ReportDto.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Dtos\\ReportDto.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Dtos\\ReportDto.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Dtos\\ReportDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:26:56.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\Program.cs",
+              "RelativeToolTip": "ProjektPWSW.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T17:18:53.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:04:08.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProjektPWSW.Wpf.csproj",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\ProjektPWSW.Wpf.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-27T20:37:27.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\App.xaml",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\App.xaml",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\App.xaml",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-27T18:09:05.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ProjektPWSW.Wpf\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Wpf\\App.xaml.cs",
+              "RelativeToolTip": "ProjektPWSW.Wpf\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T17:40:37.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProjektPWSW.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\ProjektPWSW.Api.csproj",
+              "RelativeDocumentMoniker": "ProjektPWSW.Api\\ProjektPWSW.Api.csproj",
+              "ToolTip": "C:\\Users\\Ikar\\Desktop\\ProjektPWSW \u2014 kopia\\ProjektPWSW.Api\\ProjektPWSW.Api.csproj",
+              "RelativeToolTip": "ProjektPWSW.Api\\ProjektPWSW.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-27T17:17:09.34Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
